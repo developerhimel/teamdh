@@ -34,8 +34,8 @@ export default function Homepage() {
       </Head>
       <Navbar />
       <section className="container m-auto">
-        <div className="w-full h-screen bg-indigo-500"></div>
-        <div className="w-full h-screen bg-pink-600"></div>
+        <div className="w-full h-screen flex flex-col justify-center items-center bg-indigo-500"><h1>Hello world!</h1></div>
+        <div className="w-full h-screen flex flex-col justify-center items-center bg-pink-600"><h1>Hello world!</h1></div>
       </section>
 
       {/* <main className={styles.main}>
