@@ -18,6 +18,11 @@ class MyDocument extends Document {
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossOrigin="anonymous"
           />
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8888208941007709"
+            crossOrigin="anonymous"
+          ></script>
         </Head>
         <body>
           <Main />

@@ -33,10 +33,10 @@ export default function Homepage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <section className="container m-auto">
-        <div className="w-full h-screen flex flex-col justify-center items-center bg-indigo-500"><h1>Hello world!</h1></div>
-        <div className="w-full h-screen flex flex-col justify-center items-center bg-pink-600"><h1>Hello world!</h1></div>
-      </section>
+      <div className="container m-auto">
+        <div className="w-full h-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
+        <div className="w-full h-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
+      </div>
 
       {/* <main className={styles.main}>
         <motion.div animate={{ scale: 0.5 }}>

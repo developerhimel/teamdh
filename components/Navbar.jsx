@@ -36,7 +36,7 @@ export default function Navbar() {
           initial={{ y: -50 }}
           animate={{ y: 0 }}
           transition={{ ease: "easeOut", duration: 0.5 }}
-          className="hidden md:block fixed w-full top-0 z-50 glassmorphism bg-opacity-95 shadow-sm"
+          className="hidden md:block fixed w-full top-0 z-50 glassmorphism bg-opacity-95"
         >
           <div className="container m-auto p-2.5 md:pl-0 md:pr-0">
             <div className="flex flex-row justify-between items-center">
@@ -52,47 +52,65 @@ export default function Navbar() {
                   </a>
                 </Link>
               </div>
-              <div className="">
-                <Link href="/">
-                  <a className="pl-2 pr-2 ml-2 mr-2 font-THICCCBOI font-black text-base tracking-wider">
-                    Home
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a className="pl-2 pr-2 ml-2 mr-2 font-THICCCBOI font-black text-base tracking-wider">
-                    Members
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a className="pl-2 pr-2 ml-2 mr-2 font-THICCCBOI font-black text-base tracking-wider">
-                    About
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a className="pl-2 pr-2 ml-2 mr-2 font-THICCCBOI font-black text-base tracking-wider">
-                    Services
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a className="pl-2 pr-2 ml-2 mr-2 font-THICCCBOI font-black text-base tracking-wider">
-                    Portfolios
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a className="pl-2 pr-2 ml-2 mr-2 font-THICCCBOI font-black text-base tracking-wider">
-                    Contact us
-                  </a>
-                </Link>
+              <div className="flex flex-row">
+                <div className="flex flex-row justify-center items-center">
+                  <i className="fad fa-home-lg-alt text-xs text-blue-400"></i>
+                  <Link href="/">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                      Home
+                    </a>
+                  </Link>
+                </div>
+                <div className="flex flex-row justify-center items-center">
+                  <i className="fad fa-layer-group text-xs text-blue-400"></i>
+                  <Link href="/">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                      Services
+                    </a>
+                  </Link>
+                </div>
+                <div className="flex flex-row justify-center items-center">
+                  <i className="fad fa-images text-xs text-blue-400"></i>
+                  <Link href="/">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                      Portfolios
+                    </a>
+                  </Link>
+                </div>
+                <div className="flex flex-row justify-center items-center">
+                  <i className="fad fa-users text-xs text-blue-400"></i>
+                  <Link href="/">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                      Members
+                    </a>
+                  </Link>
+                </div>
+                <div className="flex flex-row justify-center items-center">
+                  <i className="fad fa-info-circle text-xs text-blue-400"></i>
+                  <Link href="/">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                      About us
+                    </a>
+                  </Link>
+                </div>
+                <div className="flex flex-row justify-center items-center">
+                  <i className="fas fa-phone-alt text-xs text-blue-400"></i>
+                  <Link href="/">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                      Contact us
+                    </a>
+                  </Link>
+                </div>
               </div>
               <div className="">
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <Link href="/">
+                  <Link href="/login">
                     <a>
                       <button
-                        className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black uppercase text-sm px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Login <i className="fad fa-sign-in-alt"></i>

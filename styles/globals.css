@@ -60,9 +60,17 @@ a {
   background-color: #000000c7;
 }
 
+.bg-semi-blue{
+  background-color: #f0f7ff;
+}
+
+.text-semi-blue{
+  color: #f0f7ff;
+}
+
 .glassmorphism {
   background: rgb(255 255 255 / 85%);
-  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 25%);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
