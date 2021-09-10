@@ -92,7 +92,7 @@ export default function Navbar() {
                   <Link href="/">
                     <a>
                       <button
-                        className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black uppercase text-sm px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Login <i class="fad fa-sign-in-alt"></i>
