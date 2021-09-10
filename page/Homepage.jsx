@@ -34,8 +34,8 @@ export default function Homepage() {
       </Head>
       <Navbar />
       <div className="container m-auto">
-        <div className="w-full h-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
-        <div className="w-full h-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
+        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
+        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
       </div>
 
       {/* <main className={styles.main}>
