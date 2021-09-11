@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "../public/assets/logo/teamdh_black_logo.png";
 import logoWhite from "../public/assets/logo/teamdh_white_logo.png";
 import { motion } from "framer-motion";
+import Dropdown from "./Dropdown";
 
 export default function Navbar() {
   const [scroll, setScroll] = useState(false);
@@ -102,22 +103,25 @@ export default function Navbar() {
                   </Link>
                 </div>
               </div>
-              <div className="">
-                <motion.div
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                >
-                  <Link href="/login">
-                    <a>
-                      <button
-                        className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                        type="button"
-                      >
-                        Login <i className="fad fa-sign-in-alt"></i>
-                      </button>
-                    </a>
-                  </Link>
-                </motion.div>
+              <div className="flex flex-row justify-center items-center">
+                <Dropdown />
+                <div className="ml-2">
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    <Link href="/login">
+                      <a>
+                        <button
+                          className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                          type="button"
+                        >
+                          Login <i className="fad fa-sign-in-alt"></i>
+                        </button>
+                      </a>
+                    </Link>
+                  </motion.div>
+                </div>
               </div>
             </div>
           </div>

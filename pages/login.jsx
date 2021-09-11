@@ -9,8 +9,10 @@ export default function Login() {
   const cancelButtonRef = useRef(null);
 
   return (
-    <div className='container m-auto'>
-      <h1 onClick={() => setOpen(true)}>hello</h1>
+    <div className="container m-auto">
+      <h1 onMouseOver={() => setOpen(true)}>
+        hello
+      </h1>
       <Transition.Root show={open} as={Fragment}>
         <Dialog
           as="div"

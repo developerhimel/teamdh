@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Spacer from "../components/Spacer";
 import firebase from "../firebase";
 import Navbar from "../components/Navbar";
+import MobileNav from '../components/MobileNav';
 
 export default function Homepage() {
   const [showAlert, setShowAlert] = React.useState(true);
@@ -34,6 +35,7 @@ export default function Homepage() {
       </Head>
       <Navbar />
       <div className="container m-auto">
+        <MobileNav/>
         <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
         <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
       </div>
