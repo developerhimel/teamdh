@@ -35,7 +35,54 @@ export default function Homepage() {
       <Navbar />
       <div className="container m-auto">
         <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
-          <h1>Hello world!</h1>
+          <div className="collapse w-96 border rounded-box border-base-300 collapse-arrow">
+            <input type="checkbox" />
+            <div className="collapse-title text-xl font-medium">
+              I open/close with click
+            </div>
+            <div className="collapse-content">
+              <p>
+                Collapse content reveals with focus. If you add a checkbox, you
+                can control it using checkbox instead of focus. Or you can
+                force-open/force-close using
+                <span className="badge badge-outline">collapse-open</span> and
+                <span className="badge badge-outline">collapse-close</span>{" "}
+                classes.
+              </p>
+            </div>
+          </div>
+          <div className="collapse w-96 border rounded-box border-base-300 collapse-arrow">
+            <input type="checkbox" />
+            <div className="collapse-title text-xl font-medium">
+              I open/close with click
+            </div>
+            <div className="collapse-content">
+              <p>
+                Collapse content reveals with focus. If you add a checkbox, you
+                can control it using checkbox instead of focus. Or you can
+                force-open/force-close using
+                <span className="badge badge-outline">collapse-open</span> and
+                <span className="badge badge-outline">collapse-close</span>{" "}
+                classes.
+              </p>
+            </div>
+          </div>
+          <div className="collapse w-96 border rounded-box border-base-300 collapse-arrow">
+            <input type="checkbox" />
+            <div className="collapse-title text-xl font-medium">
+              I open/close with click
+            </div>
+            <div className="collapse-content">
+              <p>
+                Collapse content reveals with focus. If you add a checkbox, you
+                can control it using checkbox instead of focus. Or you can
+                force-open/force-close using
+                <span className="badge badge-outline">collapse-open</span> and
+                <span className="badge badge-outline">collapse-close</span>{" "}
+                classes.
+              </p>
+            </div>
+          </div>
         </div>
         <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
           <h1>Hello world!</h1>
