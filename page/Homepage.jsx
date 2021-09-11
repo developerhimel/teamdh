@@ -42,16 +42,6 @@ export default function Homepage() {
         </div>
       </div>
       <Footer />
-      <div className="p-4 footer bg-gray-900 text-gray-500 footer-center">
-        <div>
-          <p>
-            Copyright © 2021 - All right reserved by&nbsp;
-            <a className="cursor-pointer text-blue-300 hover:underline">
-              Teamdh Software Industry Ltd
-            </a>
-          </p>
-        </div>
-      </div>
 
       {/* <main className={styles.main}>
         <motion.div animate={{ scale: 0.5 }}>
