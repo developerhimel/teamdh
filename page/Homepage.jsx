@@ -42,14 +42,16 @@ export default function Homepage() {
         </div>
         <Footer />
       </div>
-      <footer className="p-4 footer bg-base-300 text-base-content footer-center">
+      <div className="p-4 footer bg-gray-300 text-base-content footer-center">
         <div>
           <p>
-            Copyright © 2021 - All right reserved by
-            <a className='cursor-pointer text-blue-500'> Teamdh Software Industry Ltd</a>
+            Copyright © 2021 - All right reserved by&nbsp;
+            <a className="cursor-pointer text-blue-500 hover:underline">
+              Teamdh Software Industry Ltd
+            </a>
           </p>
         </div>
-      </footer>
+      </div>
 
       {/* <main className={styles.main}>
         <motion.div animate={{ scale: 0.5 }}>
