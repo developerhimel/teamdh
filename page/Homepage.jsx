@@ -3,10 +3,9 @@ import Head from "next/head";
 import styles from "../styles/Custom.module.css";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { motion } from "framer-motion";
-import Spacer from "../components/Spacer";
 import firebase from "../firebase";
 import Navbar from "../components/Navbar";
-import MobileNav from '../components/MobileNav';
+import Footer from "../components/Footer";
 
 export default function Homepage() {
   const [showAlert, setShowAlert] = React.useState(true);
@@ -35,10 +34,22 @@ export default function Homepage() {
       </Head>
       <Navbar />
       <div className="container m-auto">
-        <MobileNav/>
-        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
-        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white"><h1>Hello world!</h1></div>
+        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
+          <h1>Hello world!</h1>
+        </div>
+        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
+          <h1>Hello world!</h1>
+        </div>
+        <Footer />
       </div>
+      <footer className="p-4 footer bg-base-300 text-base-content footer-center">
+        <div>
+          <p>
+            Copyright © 2021 - All right reserved by
+            <a className='cursor-pointer text-blue-500'> Teamdh Software Industry Ltd</a>
+          </p>
+        </div>
+      </footer>
 
       {/* <main className={styles.main}>
         <motion.div animate={{ scale: 0.5 }}>

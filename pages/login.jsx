@@ -10,7 +10,7 @@ export default function Login() {
 
   return (
     <div className="container m-auto">
-      <h1 onMouseOver={() => setOpen(true)}>
+      <h1 onMouseEnter={() => setOpen(true)}>
         hello
       </h1>
       <Transition.Root show={open} as={Fragment}>
