@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="p-10 footer bg-base-200 text-base-content">
-        <div>
+        <div className="container justify-center items-center">
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>

@@ -40,13 +40,13 @@ export default function Homepage() {
         <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
           <h1>Hello world!</h1>
         </div>
-        <Footer />
       </div>
-      <div className="p-4 footer bg-gray-300 text-base-content footer-center">
+      <Footer />
+      <div className="p-4 footer bg-gray-900 text-gray-500 footer-center">
         <div>
           <p>
             Copyright © 2021 - All right reserved by&nbsp;
-            <a className="cursor-pointer text-blue-500 hover:underline">
+            <a className="cursor-pointer text-blue-300 hover:underline">
               Teamdh Software Industry Ltd
             </a>
           </p>
