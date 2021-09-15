@@ -22,6 +22,41 @@ html::-webkit-scrollbar {
   height: 10px;
 }
 
+.body-bg {
+  background-color: #fafafd;
+}
+
+.uni-gradient-text {
+  background: #0ca2cf;
+  background: -webkit-linear-gradient(
+    to right,
+    #0ca2cf 0%,
+    #12d7ff 50%,
+    #45daff 51%,
+    #2bd5ff 71%,
+    #4bbdcf 22%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #0ca2cf 0%,
+    #12d7ff 50%,
+    #45daff 51%,
+    #2bd5ff 71%,
+    #4bbdcf 22%
+  );
+  background: linear-gradient(
+    to right,
+    #0ca2cf 0%,
+    #12d7ff 50%,
+    #45daff 51%,
+    #2bd5ff 71%,
+    #4bbdcf 22%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+}
+
 html::-webkit-scrollbar-thumb {
   background: #434343;
   border-radius: 16px;
@@ -60,7 +95,6 @@ a {
   height: 60px;
 }
 
-
 .header_bg {
   background-image: url("../public/assets/images/header_bg.jpg");
   background-repeat: no-repeat;
@@ -71,11 +105,11 @@ a {
   background-color: #000000c7;
 }
 
-.bg-semi-blue{
+.bg-semi-blue {
   background-color: #f0f7ff;
 }
 
-.text-semi-blue{
+.text-semi-blue {
   color: #f0f7ff;
 }
 
@@ -89,6 +123,6 @@ a {
   border-bottom-right-radius: 10px;
 }
 
-.h-full-screen{
+.h-full-screen {
   height: 100vh;
 }

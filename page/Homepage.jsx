@@ -30,19 +30,21 @@ export default function Homepage() {
           name="description"
           content="Team dh is a software development company."
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <div className="container m-auto">
-        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
-          <h1>Hello world!</h1>
+        <div className="w-full h-full-screen flex flex-col justify-center items-center body-bg">
+          <h1 className="text-6xl font-bold uni-gradient-text">
+            Hello world!
+          </h1>
         </div>
-        <div className="w-full h-full-screen flex flex-col justify-center items-center bg-white">
-          <h1>Hello world!</h1>
+        <div className="w-full h-full-screen flex flex-col justify-center items-center body-bg">
+          <h1 className="text-6xl font-bold uni-gradient-text">
+            Hello world!
+          </h1>
         </div>
       </div>
       <Footer />
-
       {/* <main className={styles.main}>
         <motion.div animate={{ scale: 0.5 }}>
           <h1 className={styles.title}>

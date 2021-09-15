@@ -51,7 +51,7 @@ export default function Navbar() {
           initial={{ y: -50 }}
           animate={{ y: 0 }}
           transition={{ ease: "easeOut", duration: 0.5 }}
-          className="hidden md:block fixed w-full top-0 z-50 glassmorphism bg-opacity-95"
+          className="hidden md:block fixed w-full top-0 z-40 glassmorphism bg-opacity-95"
         >
           <div className="container m-auto p-2.5 md:pl-0 md:pr-0">
             <div className="flex flex-row justify-between items-center">
@@ -143,7 +143,7 @@ export default function Navbar() {
       ) : null}
       {/* Onscroll navigation end here */}
 
-      <nav className="hidden md:block">
+      <nav className="hidden md:block border-b rounded-md">
         <div className="container m-auto p-2.5 md:pl-0 md:pr-0">
           <div className="flex flex-row justify-between items-center">
             <div className="flex flex-row justify-center items-center">
