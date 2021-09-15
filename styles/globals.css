@@ -2,6 +2,38 @@
   font-family: "THICCCBOI";
   src: url(../public/assets/fonts/THICCCBOI-Regular.ttf);
 }
+@font-face {
+  font-family: "Chikon";
+  src: url(../public/assets/fonts/chikon.ttf);
+}
+@font-face {
+  font-family: "ItalicKor";
+  src: url(../public/assets/fonts/italic.ttf);
+}
+@font-face {
+  font-family: "NeueMontrealBold";
+  src: url(../public/assets/fonts/NeueMontreal-Bold.ttf);
+}
+@font-face {
+  font-family: "NeueMontrealLight";
+  src: url(../public/assets/fonts/NeueMontreal-Light.ttf);
+}
+@font-face {
+  font-family: "ChivoBlack";
+  src: url(../public/assets/fonts/Chivo-Black.ttf);
+}
+@font-face {
+  font-family: "ChivoBold";
+  src: url(../public/assets/fonts/Chivo-Bold.ttf);
+}
+@font-face {
+  font-family: "ChivoLight";
+  src: url(../public/assets/fonts/Chivo-Light.ttf);
+}
+@font-face {
+  font-family: "ChivoRegular";
+  src: url(../public/assets/fonts/Chivo-Regular.ttf);
+}
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +46,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #fafafd;
+  background-color: #fff;
   overflow-x: hidden !important;
   cursor: url("../public/assets/loader/loader.svg"), auto;
 }
@@ -27,36 +59,44 @@ html::-webkit-scrollbar {
 .body-bg {
   background-color: #fafafd;
 }
+.bg-#ff3c3c {
+  background-color: #ff3c3c;
+}
+
+.curved-div {
+  background-color: #ffffff;
+  clip-path: ellipse(300% 100% at 152.5% 0%);
+}
+.curved-div-alt {
+  clip-path: ellipse(300% 100% at -52.5% 0%);
+}
+
+.uni-gradient-bg {
+  background: rgb(27, 226, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 226, 237, 1) 0%,
+    rgba(15, 181, 242, 1) 35%,
+    rgba(9, 159, 244, 1) 100%
+  );
+}
+.uni-gradient-bg:hover {
+  background: rgb(27, 226, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 159, 244, 1) 0%,
+    rgba(15, 181, 242, 1) 35%,
+    rgba(27, 226, 237, 1) 100%
+  );
+}
 
 .uni-gradient-text {
-  background: #0ca2cf;
-  background: -webkit-linear-gradient(
-    to right,
-    #0ca2cf 0%,
-    #12d7ff 50%,
-    #45daff 51%,
-    #2bd5ff 71%,
-    #4bbdcf 22%
-  );
-  background: -moz-linear-gradient(
-    to right,
-    #0ca2cf 0%,
-    #12d7ff 50%,
-    #45daff 51%,
-    #2bd5ff 71%,
-    #4bbdcf 22%
-  );
-  background: linear-gradient(
-    to right,
-    #0ca2cf 0%,
-    #12d7ff 50%,
-    #45daff 51%,
-    #2bd5ff 71%,
-    #4bbdcf 22%
-  );
+  background: #1be2ed;
+  background: -webkit-linear-gradient(to right, #099ff4 0%, #1be2ed 100%);
+  background: -moz-linear-gradient(to right, #099ff4 0%, #1be2ed 100%);
+  background: linear-gradient(to right, #099ff4 0%, #1be2ed 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 72px;
 }
 
 html::-webkit-scrollbar-thumb {

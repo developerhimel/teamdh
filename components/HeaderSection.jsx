@@ -22,13 +22,13 @@ SwiperCore.use([Autoplay, Pagination, Navigation, EffectCreative]);
 export default function HeaderSection() {
   return (
     <Swiper
-      speed={500}
+      speed={1000}
       grabCursor={true}
       loop={true}
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 3500,
+        delay: 5000,
         disableOnInteraction: true,
       }}
       pagination={{
@@ -38,23 +38,32 @@ export default function HeaderSection() {
       creativeEffect={{
         prev: {
           shadow: true,
-          translate: ["-120%", 0, -500],
+          origin: "left center",
+          translate: ["-5%", 0, -200],
+          rotate: [0, 100, 0],
         },
         next: {
-          shadow: true,
-          translate: ["120%", 0, -500],
+          origin: "right center",
+          translate: ["5%", 0, -200],
+          rotate: [0, -100, 0],
         },
       }}
-      className="mySwiper2"
+      className="mySwiper6"
     >
       <SwiperSlide>
-        <SliderComp />
+        <div className="w-screen h-auto">
+          <SliderComp />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <SliderComp />
+        <div className="w-screen h-auto">
+          <SliderComp />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <SliderComp />
+        <div className="w-screen h-auto">
+          <SliderComp />
+        </div>
       </SwiperSlide>
     </Swiper>
   );

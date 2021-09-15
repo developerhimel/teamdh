@@ -133,7 +133,7 @@ export default function Navbar() {
                     <Link href="/login">
                       <a>
                         <button
-                          className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                          className="uni-gradient-bg font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                           type="button"
                         >
                           Login <i className="fad fa-sign-in-alt"></i>
@@ -219,7 +219,7 @@ export default function Navbar() {
                   <Link href="/login">
                     <a>
                       <button
-                        className="bg-blue-500 font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="uni-gradient-bg font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Login <i className="fad fa-sign-in-alt"></i>
