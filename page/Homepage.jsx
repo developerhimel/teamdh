@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 import firebase from "../firebase";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Image from "next/image";
+import dummyImg from "../public/assets/images/header_bg.jpg";
 
 export default function Homepage() {
   const [showAlert, setShowAlert] = React.useState(true);
@@ -34,6 +36,31 @@ export default function Homepage() {
         />
       </Head>
       <Navbar />
+
+      <div className="w-full h-auto">
+        <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+          <img
+            className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+            src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
+            alt=""
+            width="384"
+            height="512"
+          />
+          <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+            <blockquote>
+              <p className="text-lg font-semibold">
+                “Tailwind CSS is the only framework that I've seen scale on
+                large teams. It’s easy to customize, adapts to any design, and
+                the build size is tiny.”
+              </p>
+            </blockquote>
+            <figcaption className="font-medium">
+              <div className="text-cyan-600">Sarah Dayan</div>
+              <div className="text-gray-500">Staff Engineer, Algolia</div>
+            </figcaption>
+          </div>
+        </figure>
+      </div>
 
       {/* Header Started from here */}
       <section className="text-gray-600 body-font">
@@ -103,10 +130,10 @@ export default function Homepage() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
+            <Image
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src={dummyImg}
             />
           </div>
         </div>
