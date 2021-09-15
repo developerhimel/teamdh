@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <>
       {/* Mobile Navigation Start from here */}
-      <nav className="md:hidden p-2.5">
+      <nav className="md:hidden p-2.5 glassmorphism rounded-b-lg fixed top-0 left-0 w-screen">
         <div className="grid grid-cols-3 items-center">
           <MobileNav />
           <motion.div

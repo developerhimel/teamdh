@@ -11,7 +11,7 @@ export default function NavDropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex justify-center w-full px-4 rounded-md py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none">
+        <Menu.Button className="inline-flex justify-center w-full px-4 rounded-md py-2 bg-gray-100 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none">
           <i className="fas text-gray-500 fa-ellipsis-v text-xl"></i>
         </Menu.Button>
       </div>
