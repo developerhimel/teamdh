@@ -24,7 +24,7 @@ export default function Homepage() {
           content="width=device-width, initial-scale=1.0, viewport-fit=cover"
         />
         <title>
-          Teamdh || World's best experienced and skilled developer's team.
+          Teamdh || Worlds best experienced and skilled developers team.
         </title>
         <meta
           name="description"

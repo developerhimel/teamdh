@@ -24,7 +24,13 @@ export default function Navbar() {
   return (
     <>
       {/* Mobile Navigation Start from here */}
-      <nav className="md:hidden p-2.5 glassmorphism rounded-b-lg fixed top-0 left-0 w-screen">
+      <nav
+        className={
+          scroll === true
+            ? "md:hidden p-2.5 glassmorphism rounded-b-lg fixed top-0 left-0 w-screen z-50"
+            : "md:hidden p-2.5 rounded-b-lg fixed top-0 left-0 w-screen border-b"
+        }
+      >
         <div className="grid grid-cols-3 items-center">
           <MobileNav />
           <motion.div

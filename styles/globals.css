@@ -15,6 +15,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #fafafd;
   overflow-x: hidden !important;
+  cursor: url('../public/assets/loader/loader.svg'), auto;
 }
 
 html::-webkit-scrollbar {
