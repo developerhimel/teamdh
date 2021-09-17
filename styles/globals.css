@@ -1,8 +1,4 @@
 @font-face {
-  font-family: "THICCCBOI";
-  src: url(../public/assets/fonts/THICCCBOI-Regular.ttf);
-}
-@font-face {
   font-family: "Chikon";
   src: url(../public/assets/fonts/chikon.ttf);
 }
@@ -11,28 +7,12 @@
   src: url(../public/assets/fonts/italic.ttf);
 }
 @font-face {
-  font-family: "NeueMontrealBold";
-  src: url(../public/assets/fonts/NeueMontreal-Bold.ttf);
+  font-family: "Rza";
+  src: url(../public/assets/fonts/rza-regular.ttf);
 }
 @font-face {
-  font-family: "NeueMontrealLight";
-  src: url(../public/assets/fonts/NeueMontreal-Light.ttf);
-}
-@font-face {
-  font-family: "ChivoBlack";
-  src: url(../public/assets/fonts/Chivo-Black.ttf);
-}
-@font-face {
-  font-family: "ChivoBold";
-  src: url(../public/assets/fonts/Chivo-Bold.ttf);
-}
-@font-face {
-  font-family: "ChivoLight";
-  src: url(../public/assets/fonts/Chivo-Light.ttf);
-}
-@font-face {
-  font-family: "ChivoRegular";
-  src: url(../public/assets/fonts/Chivo-Regular.ttf);
+  font-family: "Inter";
+  src: url(../public/assets/fonts/Inter.ttf);
 }
 
 @tailwind base;
@@ -44,11 +24,9 @@ body {
   position: relative;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter;
   background-color: #fff;
   overflow-x: hidden !important;
-  cursor: url("../public/assets/loader/loader.svg"), auto;
 }
 
 html::-webkit-scrollbar {

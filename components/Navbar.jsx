@@ -77,7 +77,7 @@ export default function Navbar() {
                 <div className="flex flex-row justify-center items-center">
                   <i className="fad fa-home-lg-alt text-xs text-blue-400"></i>
                   <Link href="/">
-                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                       Home
                     </a>
                   </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
                 <div className="flex flex-row justify-center items-center">
                   <i className="fad fa-layer-group text-xs text-blue-400"></i>
                   <Link href="/">
-                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                       Services
                     </a>
                   </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
                 <div className="flex flex-row justify-center items-center">
                   <i className="fad fa-images text-xs text-blue-400"></i>
                   <Link href="/">
-                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                       Projects
                     </a>
                   </Link>
@@ -101,7 +101,7 @@ export default function Navbar() {
                 <div className="flex flex-row justify-center items-center">
                   <i className="fad fa-users text-xs text-blue-400"></i>
                   <Link href="/">
-                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                       Members
                     </a>
                   </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
                 <div className="flex flex-row justify-center items-center">
                   <i className="fad fa-info-circle text-xs text-blue-400"></i>
                   <Link href="/">
-                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                       About us
                     </a>
                   </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
                 <div className="flex flex-row justify-center items-center">
                   <i className="fas fa-phone-alt text-xs text-blue-400"></i>
                   <Link href="/">
-                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                    <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                       Contact us
                     </a>
                   </Link>
@@ -133,7 +133,7 @@ export default function Navbar() {
                     <Link href="/login">
                       <a>
                         <button
-                          className="uni-gradient-bg font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                          className="uni-gradient-bg font-Inter text-white active:bg-blueGray-600 font-medium lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                           type="button"
                         >
                           Login <i className="fad fa-sign-in-alt"></i>
@@ -163,7 +163,7 @@ export default function Navbar() {
               <div className="flex flex-row justify-center items-center">
                 <i className="fad fa-home-lg-alt text-xs text-blue-400"></i>
                 <Link href="/">
-                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     Home
                   </a>
                 </Link>
@@ -171,7 +171,7 @@ export default function Navbar() {
               <div className="flex flex-row justify-center items-center">
                 <i className="fad fa-layer-group text-xs text-blue-400"></i>
                 <Link href="/">
-                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     Services
                   </a>
                 </Link>
@@ -179,7 +179,7 @@ export default function Navbar() {
               <div className="flex flex-row justify-center items-center">
                 <i className="fad fa-images text-xs text-blue-400"></i>
                 <Link href="/">
-                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     Projects
                   </a>
                 </Link>
@@ -187,7 +187,7 @@ export default function Navbar() {
               <div className="flex flex-row justify-center items-center">
                 <i className="fad fa-users text-xs text-blue-400"></i>
                 <Link href="/">
-                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     Members
                   </a>
                 </Link>
@@ -195,7 +195,7 @@ export default function Navbar() {
               <div className="flex flex-row justify-center items-center">
                 <i className="fad fa-info-circle text-xs text-blue-400"></i>
                 <Link href="/">
-                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     About us
                   </a>
                 </Link>
@@ -203,7 +203,7 @@ export default function Navbar() {
               <div className="flex flex-row justify-center items-center">
                 <i className="fas fa-phone-alt text-xs text-blue-400"></i>
                 <Link href="/">
-                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-THICCCBOI font-black text-sm lg:text-base tracking-wider text-gray-500">
+                  <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     Contact us
                   </a>
                 </Link>
@@ -219,7 +219,7 @@ export default function Navbar() {
                   <Link href="/login">
                     <a>
                       <button
-                        className="uni-gradient-bg font-THICCCBOI text-white active:bg-blueGray-600 font-black lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="uni-gradient-bg font-Inter text-white active:bg-blueGray-600 font-medium lg:text-sm text-xs px-6 py-3 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Login <i className="fad fa-sign-in-alt"></i>

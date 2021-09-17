@@ -14,6 +14,7 @@ module.exports = {
         ChivoBold: "ChivoBold",
         ChivoLight: "ChivoLight",
         ChivoRegular: "ChivoRegular",
+        Rza: "Rza",
       },
     },
   },

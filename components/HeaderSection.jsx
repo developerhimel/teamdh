@@ -52,17 +52,17 @@ export default function HeaderSection() {
     >
       <SwiperSlide>
         <div className="w-screen h-auto">
-          <SliderComp />
+          <SliderComp sliderNo='first' />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="w-screen h-auto">
-          <SliderComp />
+          <SliderComp sliderNo='second' />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="w-screen h-auto">
-          <SliderComp />
+          <SliderComp sliderNo='third' />
         </div>
       </SwiperSlide>
     </Swiper>
