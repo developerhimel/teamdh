@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import dummyImg from "../public/assets/images/header_bg.jpg";
+import bg1 from '../public/assets/images/bg-1.jpg';
 
 export default function SliderComp({ sliderNo }) {
   return (
@@ -8,14 +9,13 @@ export default function SliderComp({ sliderNo }) {
       {sliderNo === "first" ? (
         <section className="text-gray-600 body-font body-bg">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <div className="lg:w-1/2 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font font-Rza font-bold sm:text-4xl text-3xl mb-4 text-gray-600">
-                Worlds Best Experienced and Skilled Developers Team.
+                Worlds Best Experienced and Skilled Designers & Developers Team.
               </h1>
-              <p className="mb-8 leading-relaxed">
-                Chillwave portland ugh, knausgaard fam polaroid iPhone. Man
-                braid swag typewriter affogato, hella selvage wolf narwhal
-                dreamcatcher.
+              <p className="mb-8 leading-relaxed font-normal text-base">
+                Work with the largest network of independent professionals and
+                get things done—from quick turnarounds to big transformations.
               </p>
               <div className="flex w-full md:justify-start justify-center items-end">
                 <div className="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
@@ -78,8 +78,8 @@ export default function SliderComp({ sliderNo }) {
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 glassmorphism">
               <Image
                 className="object-cover object-center rounded"
-                alt="hero"
-                src={dummyImg}
+                alt="Teamdh developer team"
+                src={bg1}
               />
             </div>
           </div>
@@ -87,9 +87,9 @@ export default function SliderComp({ sliderNo }) {
       ) : sliderNo === "second" ? (
         <section className="text-gray-600 body-font body-bg">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <div className="lg:w-1/2 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font font-Rza font-bold sm:text-4xl text-3xl mb-4 text-gray-600">
-                Worlds Best Experienced and Skilled Developers Team.
+                Worldwide freelance services provider team.
               </h1>
               <p className="mb-8 leading-relaxed">
                 Chillwave portland ugh, knausgaard fam polaroid iPhone. Man
@@ -166,9 +166,9 @@ export default function SliderComp({ sliderNo }) {
       ) : sliderNo === "third" ? (
         <section className="text-gray-600 body-font body-bg">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font font-ChivoBold tracking-tight sm:text-4xl text-3xl mb-4 text-gray-600">
-                Worlds Best Experienced and Skilled Developers Team.
+            <div className="lg:w-1/2 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 className="title-font font-Rza font-bold sm:text-4xl text-3xl mb-4 text-gray-600">
+                Worlds Best Experienced and Skilled Designers & Developers Team.
               </h1>
               <p className="mb-8 leading-relaxed">
                 Chillwave portland ugh, knausgaard fam polaroid iPhone. Man

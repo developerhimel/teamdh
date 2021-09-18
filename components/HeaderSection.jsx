@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-creative";
+import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
@@ -12,12 +12,12 @@ import SwiperCore, {
   Autoplay,
   Pagination,
   Navigation,
-  EffectCreative,
+  EffectFade,
 } from "swiper";
 import SliderComp from "./SliderComp";
 
 // install Swiper modules
-SwiperCore.use([Autoplay, Pagination, Navigation, EffectCreative]);
+SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade]);
 
 export default function HeaderSection() {
   return (
@@ -28,27 +28,14 @@ export default function HeaderSection() {
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 5000,
+        delay: 7000,
         disableOnInteraction: true,
       }}
       pagination={{
         clickable: true,
       }}
-      effect={"creative"}
-      creativeEffect={{
-        prev: {
-          shadow: true,
-          origin: "left center",
-          translate: ["-5%", 0, -200],
-          rotate: [0, 100, 0],
-        },
-        next: {
-          origin: "right center",
-          translate: ["5%", 0, -200],
-          rotate: [0, -100, 0],
-        },
-      }}
-      className="mySwiper6"
+      effect={"fade"}
+      className="mySwiper"
     >
       <SwiperSlide>
         <div className="w-screen h-auto">

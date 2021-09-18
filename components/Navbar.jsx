@@ -27,8 +27,8 @@ export default function Navbar() {
       <nav
         className={
           scroll === true
-            ? "md:hidden p-2.5 glassmorphism rounded-b-lg fixed top-0 left-0 w-screen z-50"
-            : "md:hidden p-2.5 rounded-b-lg fixed top-0 left-0 w-screen border-b"
+            ? "md:hidden p-2.5 glassmorphism rounded-b-lg fixed top-0 left-0 w-screen z-40"
+            : "md:hidden p-2.5 rounded-b-lg w-screen border-b z-40 relative"
         }
       >
         <div className="grid grid-cols-3 items-center">
@@ -86,7 +86,24 @@ export default function Navbar() {
                   <i className="fad fa-layer-group text-xs text-blue-400"></i>
                   <Link href="/">
                     <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
-                      Services
+                      <div className="dropdown dropdown-hover">
+                        <h1>Services</h1>
+                        <ul
+                          tabIndex="0"
+                          className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52"
+                        >
+                          <li>
+                            <a>Item 1</a>
+                          </li>
+                          <li>
+                            <a>Item 2</a>
+                          </li>
+                          <li>
+                            <a>Item 3</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <i className="fad fa-chevron-down text-xs text-black ml-1"></i>
                     </a>
                   </Link>
                 </div>
@@ -172,7 +189,24 @@ export default function Navbar() {
                 <i className="fad fa-layer-group text-xs text-blue-400"></i>
                 <Link href="/">
                   <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
-                    Services
+                    <div className="dropdown dropdown-hover">
+                      <h1>Services</h1>
+                      <ul
+                        tabIndex="0"
+                        className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52"
+                      >
+                        <li>
+                          <a>Item 1</a>
+                        </li>
+                        <li>
+                          <a>Item 2</a>
+                        </li>
+                        <li>
+                          <a>Item 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <i className="fad fa-chevron-down text-xs text-black ml-1"></i>
                   </a>
                 </Link>
               </div>
