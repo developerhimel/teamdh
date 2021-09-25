@@ -5,16 +5,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        THICCCBOI: "'THICCCBOI',serif",
         Chikon: "Chikon",
         ItalicKor: "ItalicKor",
-        NeueMontrealBold: "NeueMontrealBold",
-        NeueMontrealLight: "NeueMontrealLight",
-        ChivoBlack: "ChivoBlack",
-        ChivoBold: "ChivoBold",
-        ChivoLight: "ChivoLight",
-        ChivoRegular: "ChivoRegular",
         Rza: "Rza",
+        Inter: "Inter",
       },
     },
   },

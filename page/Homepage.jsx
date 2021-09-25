@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Head from "next/head";
-import Image from 'next/image';
+import Image from "next/image";
 import styles from "../styles/Custom.module.css";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { motion } from "framer-motion";
@@ -11,7 +11,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeaderSection from "../components/HeaderSection";
 import Spacer from "../components/Spacer";
-import bgImage from '../public/assets/loader/loader.svg'
+import bgImage from "../public/assets/loader/loader.svg";
 
 export default function Homepage() {
   const [showAlert, setShowAlert] = React.useState(true);
@@ -30,7 +30,7 @@ export default function Homepage() {
           content="width=device-width, initial-scale=1.0, viewport-fit=cover"
         />
         <title>
-          Teamdh || Worlds best experienced and skilled developers team.
+          Worlds Best Experienced and Skilled Designers & Developers Team.
         </title>
         <meta
           name="description"
@@ -46,7 +46,12 @@ export default function Homepage() {
       </section>
       <div className="body-bg pb-5 relative">
         <div className="absolute top-0 left-5 z-10 opacity-20">
-          <Image height={200} width={200} src={bgImage} alt='Background Image' />
+          <Image
+            height={200}
+            width={200}
+            src={bgImage}
+            alt="Background Image"
+          />
         </div>
         {/* <div className="absolute bottom-32 right-5 z-10 opacity-20">
           <Image height={200} width={200} src={bgImage} alt='Background Image' />

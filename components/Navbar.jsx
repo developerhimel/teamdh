@@ -179,7 +179,7 @@ export default function Navbar() {
             <div className="flex flex-row">
               <div className="flex flex-row justify-center items-center">
                 <i className="fad fa-home-lg-alt text-xs text-blue-400"></i>
-                <Link href="/projects/index.html">
+                <Link href="/index.html">
                   <a className="pl-1 pr-3 lg:pr-4 mr-2 font-Inter font-medium text-sm lg:text-sm tracking-wider text-black">
                     Home
                   </a>
